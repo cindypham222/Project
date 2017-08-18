@@ -1,0 +1,10 @@
+C:\Users\cindy\source\repos\Project\Project\bin\Debug\netcoreapp1.1\Project.deps.json
+C:\Users\cindy\source\repos\Project\Project\bin\Debug\netcoreapp1.1\Project.runtimeconfig.json
+C:\Users\cindy\source\repos\Project\Project\bin\Debug\netcoreapp1.1\Project.runtimeconfig.dev.json
+C:\Users\cindy\source\repos\Project\Project\obj\Debug\netcoreapp1.1\Project.csprojResolveAssemblyReference.cache
+C:\Users\cindy\source\repos\Project\Project\obj\Debug\netcoreapp1.1\Project.csproj.CoreCompileInputs.cache
+C:\Users\cindy\source\repos\Project\Project\obj\Debug\netcoreapp1.1\Project.AssemblyInfo.cs
+C:\Users\cindy\source\repos\Project\Project\bin\Debug\netcoreapp1.1\Project.dll
+C:\Users\cindy\source\repos\Project\Project\bin\Debug\netcoreapp1.1\Project.pdb
+C:\Users\cindy\source\repos\Project\Project\obj\Debug\netcoreapp1.1\Project.dll
+C:\Users\cindy\source\repos\Project\Project\obj\Debug\netcoreapp1.1\Project.pdb

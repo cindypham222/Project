@@ -1,0 +1,71 @@
+@model IEnumerable<Project.Models.Availability>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Monday)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Tuesday)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Wednesday)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Thursday)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Friday)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Saturday)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Sunday)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Monday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tuesday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Wednesday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Thursday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Friday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Saturday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sunday)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.AvailabilityID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.AvailabilityID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.AvailabilityID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
